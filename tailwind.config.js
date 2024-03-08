@@ -4,5 +4,30 @@ export default {
   theme: {
     extend: {}
   },
-  plugins: []
+  plugins: [require('daisyui')],
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: '#16a541',
+
+          secondary: '#00b7d1',
+
+          accent: '#00ffff',
+
+          neutral: '#392027',
+
+          'base-100': '#fafafa',
+
+          info: '#00c2e3',
+
+          success: '#00efc4',
+
+          warning: '#f2a400',
+
+          error: '#ff7b85'
+        }
+      }
+    ]
+  }
 }
